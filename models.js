@@ -18,7 +18,7 @@ const restaurantSchema = mongoose.Schema({
   grades: [{
     date: Date,
     grade: String,
-    score: Number
+    score: Number 
   }]
 });
 
